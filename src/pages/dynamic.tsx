@@ -1,5 +1,5 @@
 import { GetServerSideProps, NextPage } from "next";
-import { useEffect, useState } from "react";
+import { useEffect, useState, ReactNode } from "react";
 import { Col, Container, Row } from "reactstrap";
 
 type ApiResponse = {
